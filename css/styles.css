@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+html{
+  font-size: 10px;
+}
+
+.timer{
+  font-size: 7rem;
+  margin-top: 10rem;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+.btn{
+  font-size: 3.5rem;
+  border: 3px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+#soundSong{
+  display: none;
+}
+
+#stopBtn{
+  display: none;
+}
+
+#extendMin{
+  display: none;
+}
+
+.btn:hover, .btn:focus{
+  border-bottom: 3px solid purple;
+  border-radius: 0.3rem;
+}
+
+.main{
+  max-width: 80rem;
+  text-align: center;
+  margin: auto;
+}
+
+.timeInput{
+  font-size: 2rem;
+  border: none;
+  border-bottom: 3px solid purple;
+}
+
+.timeInput:focus, .timeInput:active{
+  border: none;
+  outline: none;
+  border-bottom: 3px solid purple;
+}
+
+
+/* --------------------------Media Queries -----------------------------------*/
+@media only screen and (max-width: 800px) {
+  html{
+    font-size: 8px;
+  }
+}
