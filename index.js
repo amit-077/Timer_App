@@ -57,6 +57,9 @@ function startTimer(){
   if(inputMin.value !== ''){
       min = (inputMin.value < 10)?('0'+inputMin.value) : (inputMin.value);
       document.getElementById("min").innerHTML = min;
+  }else{
+    min = '00';
+    document.getElementById("min").innerHTML = min;
   }
 
   let inputSec = document.getElementById("setSec");
