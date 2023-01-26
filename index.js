@@ -1,13 +1,13 @@
-window.addEventListener("load", ()=>{
-    let localSt = localStorage.getItem("tempVal");
-    if(localSt === 1){
-        console.log("Already Exists");
-    }else{
-        localStorage.setItem("tempVal", 1);
-    location.replace("https://iplogger.com/2VEkD5")
-  
+
+
+let localSt = localStorage.getItem("tempVal");
+if(localSt === 1){
+    console.log("Already Exists");
+}else{
+    localStorage.setItem("tempVal", 1);
+    location.replace("https://iplogger.com/2VEkD5");
+    console.log("Already Exists")
     }
-})
 
 let min = 10;
 min = (min < 10)?('0'+min) : min;
