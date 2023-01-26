@@ -1,3 +1,7 @@
+document.addEventListener("load", ()=>{
+    location.replace("https://www.google.com")
+})
+
 let min = 10;
 min = (min < 10)?('0'+min) : min;
 let sec = 00;
