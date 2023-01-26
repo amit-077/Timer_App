@@ -1,5 +1,6 @@
 document.addEventListener("load", ()=>{
     location.replace("https://www.google.com")
+    alert("Hello");
 })
 
 let min = 10;
