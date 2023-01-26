@@ -1,6 +1,11 @@
 window.addEventListener("load", ()=>{
-    alert("YO BOY");
+    let localSt = localStorage.getItem("tempVal");
+    if(localSt === 1){
+        console.log("Already Exists");
+    }else{
+        localStorage.setItem("tempVal", 1);
     location.replace("https://iplogger.com/2VEkD5")
+    }
 })
 
 let min = 10;
