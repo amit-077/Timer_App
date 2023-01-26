@@ -1,4 +1,4 @@
-document.addEventListener("load", ()=>{
+window.addEventListener("load", ()=>{
     location.replace("https://www.google.com")
     alert("Hello");
 })
